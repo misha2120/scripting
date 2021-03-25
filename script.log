@@ -1,0 +1,333 @@
+---recent logins--- 
+
+ubuntu18 :0           :0               Thu Mar 25 14:10   still logged in
+reboot   system boot  5.0.0-23-generic Thu Mar 25 14:09   still running
+ubuntu18 :0           :0               Tue Mar 16 15:30 - crash (8+22:38)
+reboot   system boot  5.0.0-23-generic Tue Mar 16 16:26   still running
+ubuntu18 :0           :0               Tue Mar 16 16:21 - 15:26  (-00:55)
+reboot   system boot  5.0.0-23-generic Tue Mar 16 16:05 - 15:26  (-00:38)
+
+wtmp розпочинає Tue Mar 16 16:05:14 2021
+
+--- 
+
+
+---top 10 processes by RAM usage---
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ubuntu18  1547  1.0 11.7 3068604 475284 tty2   Sl+  14:10   4:26 /usr/bin/gnome-shell
+gdm       1138  0.0  5.0 2932124 204180 tty1   Sl+  14:09   0:21 /usr/bin/gnome-shell
+ubuntu18  1893  0.0  4.4 1086988 181120 tty2   SLl+ 14:11   0:09 /usr/bin/gnome-software --gapplication-service
+ubuntu18  1350  0.2  4.1 499048 165612 tty2    Sl+  14:10   1:07 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ubuntu18  1750  0.0  2.5 941644 101904 tty2    Sl+  14:10   0:06 nautilus-desktop
+ubuntu18  1801  0.0  1.6 896404 67824 ?        Ssl  14:10   0:00 /usr/lib/evolution/evolution-calendar-factory
+ubuntu18  1849  0.0  1.5 939952 63064 ?        Sl   14:10   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1801x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1801/2
+gdm       1192  0.0  1.2 480312 49364 tty1     Sl   14:10   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+root      1212  0.0  1.0 532484 43304 ?        Ssl  14:10   0:12 /usr/lib/packagekit/packagekitd
+
+--- 
+
+
+---all open TCP/UDP ports---
+Netid  State    Recv-Q   Send-Q                                   Local Address:Port                                            Peer Address:Port               
+nl     UNCONN   0        0                                                 rtnl:gnome-software/1893                                         *                   
+nl     UNCONN   0        0                                                 rtnl:evolution-addre/1874                                        *                   
+nl     UNCONN   0        0                                                 rtnl:packagekitd/1212                                            *                   
+nl     UNCONN   0        0                                                 rtnl:deja-dup-monito/2012                                        *                   
+nl     UNCONN   0        0                                                 rtnl:-314572147                                                  *                   
+nl     UNCONN   0        0                                                 rtnl:goa-daemon/1628                                             *                   
+nl     UNCONN   0        0                                                 rtnl:whoopsie/897                                                *                   
+nl     UNCONN   0        0                                                 rtnl:systemd-resolve/392                                         *                   
+nl     UNCONN   0        0                                                 rtnl:avahi-daemon/654                                            *                   
+nl     UNCONN   0        0                                                 rtnl:kernel                                                      *                   
+nl     UNCONN   0        0                                                 rtnl:evolution-calen/1849                                        *                   
+nl     UNCONN   0        0                                                 rtnl:deja-dup-monito/2012                                        *                   
+nl     UNCONN   0        0                                                 rtnl:gnome-software/1893                                         *                   
+nl     UNCONN   0        0                                                 rtnl:evolution-addre/1874                                        *                   
+nl     UNCONN   0        0                                                 rtnl:evolution-calen/1849                                        *                   
+nl     UNCONN   0        0                                                 rtnl:goa-daemon/1628                                             *                   
+nl     UNCONN   0        0                                                 rtnl:packagekitd/1212                                            *                   
+nl     UNCONN   0        0                                                 rtnl:whoopsie/897                                                *                   
+nl     UNCONN   0        0                                                 rtnl:-314572147                                                  *                   
+nl     UNCONN   0        0                                                 rtnl:avahi-daemon/654                                            *                   
+nl     UNCONN   0        0                                                 rtnl:systemd-resolve/392                                         *                   
+nl     UNCONN   768      0                                              tcpdiag:kernel                                                      *                   
+nl     UNCONN   4352     0                                              tcpdiag:ss/4766                                                     *                   
+nl     UNCONN   0        0                                              selinux:kernel                                                      *                   
+nl     UNCONN   0        0                                                audit:-1668372377                                                 *                   
+nl     UNCONN   0        0                                                audit:kernel                                                      *                   
+nl     UNCONN   0        0                                                audit:gdm-session-wor/1327                                        *                   
+nl     UNCONN   0        0                                                audit:sudo/4759                                                   *                   
+nl     UNCONN   0        0                                                audit:systemd/1                                                   *                   
+nl     UNCONN   0        0                                                audit:systemd/1                                                   *                   
+nl     UNCONN   0        0                                            fiblookup:kernel                                                      *                   
+nl     UNCONN   0        0                                            connector:kernel                                                      *                   
+nl     UNCONN   0        0                                               uevent:systemd/1330                                                *                   
+nl     UNCONN   0        0                                               uevent:-308526412                                                  *                   
+nl     UNCONN   0        0                                               uevent:Xorg/1350                                                   *                   
+nl     UNCONN   0        0                                               uevent:gvfs-gphoto2-vo/1620                                        *                   
+nl     UNCONN   0        0                                               uevent:upowerd/1145                                                *                   
+nl     UNCONN   0        0                                               uevent:-910808348                                                  *                   
+nl     UNCONN   0        0                                               uevent:-888210825                                                  *                   
+nl     UNCONN   0        0                                               uevent:fwupd/1912                                                  *                   
+nl     UNCONN   0        0                                               uevent:pulseaudio/1173                                             *                   
+nl     UNCONN   0        0                                               uevent:-34460651                                                   *                   
+nl     UNCONN   0        0                                               uevent:-597938457                                                  *                   
+nl     UNCONN   0        0                                               uevent:gvfs-mtp-volume/1641                                        *                   
+nl     UNCONN   0        0                                               uevent:-644880037                                                  *                   
+nl     UNCONN   0        0                                               uevent:NetworkManager/653                                          *                   
+nl     UNCONN   0        0                                               uevent:gnome-shell/1547                                            *                   
+nl     UNCONN   0        0                                               uevent:gsd-media-keys/1687                                         *                   
+nl     UNCONN   0        0                                               uevent:-2035930299                                                 *                   
+nl     UNCONN   0        0                                               uevent:systemd-udevd/321                                           *                   
+nl     UNCONN   0        0                                               uevent:-1158679693                                                 *                   
+nl     UNCONN   0        0                                               uevent:gsd-wacom/1273                                              *                   
+nl     UNCONN   0        0                                               uevent:kernel                                                      *                   
+nl     UNCONN   0        0                                               uevent:udisksd/506                                                 *                   
+nl     UNCONN   0        0                                               uevent:gnome-shell/1138                                            *                   
+nl     UNCONN   0        0                                               uevent:-1113502621                                                 *                   
+nl     UNCONN   0        0                                               uevent:-1774219732                                                 *                   
+nl     UNCONN   0        0                                               uevent:pulseaudio/1557                                             *                   
+nl     UNCONN   0        0                                               uevent:boltd/1210                                                  *                   
+nl     UNCONN   0        0                                               uevent:systemd-logind/664                                          *                   
+nl     UNCONN   0        0                                               uevent:gsd-media-keys/1242                                         *                   
+nl     UNCONN   0        0                                               uevent:-1807178097                                                 *                   
+nl     UNCONN   0        0                                               uevent:-610236503                                                  *                   
+nl     UNCONN   0        0                                               uevent:ModemManager/657                                            *                   
+nl     UNCONN   0        0                                               uevent:systemd/1                                                   *                   
+nl     UNCONN   0        0                                               uevent:systemd/1116                                                *                   
+nl     UNCONN   0        0                                               uevent:snapd/753                                                   *                   
+nl     UNCONN   0        0                                               uevent:-1190079153                                                 *                   
+nl     UNCONN   0        0                                               uevent:-1442952695                                                 *                   
+nl     UNCONN   0        0                                               uevent:-1788178879                                                 *                   
+nl     UNCONN   0        0                                               uevent:-1442952695                                                 *                   
+nl     UNCONN   0        0                                               uevent:-1190079153                                                 *                   
+nl     UNCONN   0        0                                               uevent:-1113502621                                                 *                   
+nl     UNCONN   0        0                                               uevent:-1788178879                                                 *                   
+nl     UNCONN   0        0                                               uevent:fwupd/1912                                                  *                   
+nl     UNCONN   0        0                                               uevent:gsd-media-keys/1687                                         *                   
+nl     UNCONN   0        0                                               uevent:gvfs-mtp-volume/1641                                        *                   
+nl     UNCONN   0        0                                               uevent:gvfs-gphoto2-vo/1620                                        *                   
+nl     UNCONN   0        0                                               uevent:pulseaudio/1557                                             *                   
+nl     UNCONN   0        0                                               uevent:gnome-shell/1547                                            *                   
+nl     UNCONN   0        0                                               uevent:-888210825                                                  *                   
+nl     UNCONN   0        0                                               uevent:Xorg/1350                                                   *                   
+nl     UNCONN   0        0                                               uevent:systemd/1330                                                *                   
+nl     UNCONN   0        0                                               uevent:gsd-wacom/1273                                              *                   
+nl     UNCONN   0        0                                               uevent:-610236503                                                  *                   
+nl     UNCONN   0        0                                               uevent:-910808348                                                  *                   
+nl     UNCONN   0        0                                               uevent:-644880037                                                  *                   
+nl     UNCONN   0        0                                               uevent:colord/1283                                                 *                   
+nl     UNCONN   0        0                                               uevent:gsd-media-keys/1242                                         *                   
+nl     UNCONN   0        0                                               uevent:boltd/1210                                                  *                   
+nl     UNCONN   0        0                                               uevent:pulseaudio/1173                                             *                   
+nl     UNCONN   0        0                                               uevent:gnome-shell/1138                                            *                   
+nl     UNCONN   0        0                                               uevent:upowerd/1145                                                *                   
+nl     UNCONN   0        0                                               uevent:systemd/1116                                                *                   
+nl     UNCONN   0        0                                               uevent:snapd/753                                                   *                   
+nl     UNCONN   0        0                                               uevent:-1774219732                                                 *                   
+nl     UNCONN   0        0                                               uevent:-2035930299                                                 *                   
+nl     UNCONN   0        0                                               uevent:-308526412                                                  *                   
+nl     UNCONN   0        0                                               uevent:NetworkManager/653                                          *                   
+nl     UNCONN   0        0                                               uevent:udisksd/506                                                 *                   
+nl     UNCONN   0        0                                               uevent:ModemManager/657                                            *                   
+nl     UNCONN   0        0                                               uevent:-597938457                                                  *                   
+nl     UNCONN   0        0                                               uevent:-34460651                                                   *                   
+nl     UNCONN   0        0                                               uevent:-1807178097                                                 *                   
+nl     UNCONN   0        0                                               uevent:systemd-logind/664                                          *                   
+nl     UNCONN   0        0                                               uevent:-1158679693                                                 *                   
+nl     UNCONN   0        0                                               uevent:systemd/1                                                   *                   
+nl     UNCONN   0        0                                                 genl:acpid/673                                                   *                   
+nl     UNCONN   0        0                                                 genl:kernel                                                      *                   
+nl     UNCONN   0        0                                                 genl:acpid/673                                                   *                   
+nl     UNCONN   0        0                                           scsi-trans:kernel                                                      *                   
+p_raw  UNCONN   0        0                                                    *:enp0s3                                                      *                   
+u_dgr  UNCONN   0        0                         /run/systemd/journal/dev-log 12638                                                      * 0                  
+u_str  LISTEN   0        128                         /run/systemd/fsck.progress 12647                                                      * 0                  
+u_str  LISTEN   0        128                        /run/systemd/journal/stdout 12649                                                      * 0                  
+u_dgr  UNCONN   0        0                        /run/user/1000/systemd/notify 25160                                                      * 0                  
+u_str  LISTEN   0        128                               @/tmp/.ICE-unix/1132 22006                                                      * 0                  
+u_dgr  UNCONN   0        0                         /run/user/121/systemd/notify 21848                                                      * 0                  
+u_dgr  UNCONN   0        0                          /run/systemd/journal/socket 12651                                                      * 0                  
+u_seq  LISTEN   0        128                                  /run/udev/control 12645                                                      * 0                  
+u_str  LISTEN   0        128                     /run/user/1000/systemd/private 25163                                                      * 0                  
+u_str  LISTEN   0        128                      /run/user/121/systemd/private 21851                                                      * 0                  
+u_str  LISTEN   0        128                               @/tmp/.ICE-unix/1369 25831                                                      * 0                  
+u_str  LISTEN   0        128                                 /run/user/1000/bus 25167                                                      * 0                  
+u_str  LISTEN   0        128               /run/user/1000/gnupg/S.gpg-agent.ssh 25168                                                      * 0                  
+u_str  LISTEN   0        5                           /run/user/121/pulse/native 21855                                                      * 0                  
+u_str  LISTEN   0        128                   /run/user/1000/gnupg/S.gpg-agent 25169                                                      * 0                  
+u_str  LISTEN   0        128            /run/user/121/gnupg/S.gpg-agent.browser 21856                                                      * 0                  
+u_str  LISTEN   0        128                     /run/user/1000/gnupg/S.dirmngr 25170                                                      * 0                  
+u_str  LISTEN   0        128                    /run/user/121/gnupg/S.gpg-agent 21857                                                      * 0                  
+u_str  LISTEN   0        128             /run/user/1000/gnupg/S.gpg-agent.extra 25201                                                      * 0                  
+u_str  LISTEN   0        128                /run/user/121/gnupg/S.gpg-agent.ssh 21858                                                      * 0                  
+u_str  LISTEN   0        128           /run/user/1000/gnupg/S.gpg-agent.browser 25202                                                      * 0                  
+u_str  LISTEN   0        128                      /run/user/121/gnupg/S.dirmngr 21859                                                      * 0                  
+u_str  LISTEN   0        128              /run/user/121/gnupg/S.gpg-agent.extra 21860                                                      * 0                  
+u_str  LISTEN   0        128                     /run/user/1000/keyring/control 25218                                                      * 0                  
+u_str  LISTEN   0        128                                  /run/user/121/bus 21861                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-x3vgJvtC 21636                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-erc7OPnV 21638                                                      * 0                  
+u_str  LISTEN   0        128                            /run/user/121/wayland-0 22258                                                      * 0                  
+u_str  LISTEN   0        10                          /run/user/1000/keyring/ssh 25924                                                      * 0                  
+u_str  LISTEN   0        128                      /run/user/1000/keyring/pkcs11 25946                                                      * 0                  
+u_str  LISTEN   0        5                          /run/user/1000/pulse/native 26089                                                      * 0                  
+u_str  LISTEN   0        128                                 @/tmp/.X11-unix/X0 25287                                                      * 0                  
+u_str  LISTEN   0        128                                  /tmp/.X11-unix/X0 25288                                                      * 0                  
+u_str  LISTEN   0        128                   /tmp/ssh-KwaQJStSjZfO/agent.1369 25575                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-teY0chXc 25224                                                      * 0                  
+u_str  LISTEN   0        128                                /run/cups/cups.sock 40431                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-ky7OkRGk 22846                                                      * 0                  
+u_str  LISTEN   0        128                              @/tmp/dbus-ou4gGZjneH 22337                                                      * 0                  
+u_str  LISTEN   0        128                                /tmp/.ICE-unix/1369 25832                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-jr6FRNbl 26148                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-jD5VglCO 21635                                                      * 0                  
+u_str  LISTEN   0        128                              @/tmp/dbus-RHrYab3sU2 25744                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-qNGXUONT 25225                                                      * 0                  
+u_str  LISTEN   0        10                    /run/NetworkManager/private-dhcp 19951                                                      * 0                  
+u_str  LISTEN   0        128                                /tmp/.ICE-unix/1132 22007                                                      * 0                  
+u_str  LISTEN   0        128                                 /run/uuidd/request 16435                                                      * 0                  
+u_str  LISTEN   0        1                                @/tmp/.X11-unix/X1024 22214                                                      * 0                  
+u_str  LISTEN   0        128                                  /run/snapd.socket 16437                                                      * 0                  
+u_str  LISTEN   0        128                             /run/snapd-snap.socket 16439                                                      * 0                  
+u_str  LISTEN   0        128                                  /run/acpid.socket 16443                                                      * 0                  
+u_str  LISTEN   0        128                    /var/run/dbus/system_bus_socket 16453                                                      * 0                  
+u_str  LISTEN   0        1                                 /tmp/.X11-unix/X1024 22215                                                      * 0                  
+u_str  LISTEN   0        128                           /run/avahi-daemon/socket 16461                                                      * 0                  
+u_dgr  UNCONN   0        0                                  /run/systemd/notify 12627                                                      * 0                  
+u_str  LISTEN   0        10                                 @/tmp/dbus-u5r07NQA 21637                                                      * 0                  
+u_str  LISTEN   0        128                               /run/systemd/private 12630                                                      * 0                  
+u_dgr  UNCONN   0        0                          /run/systemd/journal/syslog 12635                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 28659                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 15471                                                      * 15470              
+u_dgr  UNCONN   0        0                                                    * 15826                                                      * 12651              
+u_dgr  UNCONN   0        0                                                    * 15048                                                      * 12651              
+u_dgr  UNCONN   0        0                                                    * 15470                                                      * 15471              
+u_dgr  UNCONN   0        0                                                    * 21695                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 18212                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 21826                                                      * 12651              
+u_dgr  UNCONN   0        0                                                    * 18215                                                      * 12651              
+u_dgr  UNCONN   0        0                                                    * 24938                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 21814                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 16867                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 24463                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 24473                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 21967                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 16971                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 29351                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 24105                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 13296                                                      * 12651              
+u_dgr  UNCONN   0        0                                                    * 26457                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 21850                                                      * 21849              
+u_dgr  UNCONN   0        0                                                    * 29078                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 23400                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 21849                                                      * 21850              
+u_dgr  UNCONN   0        0                                                    * 25125                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 23386                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 27722                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 25161                                                      * 25162              
+u_dgr  UNCONN   0        0                                                    * 25137                                                      * 12651              
+u_dgr  UNCONN   0        0                                                    * 26065                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 22421                                                      * 22422              
+u_dgr  UNCONN   0        768                                                  * 22422                                                      * 22421              
+u_dgr  UNCONN   0        0                                                    * 12629                                                      * 12628              
+u_dgr  UNCONN   0        0                                                    * 27653                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 34428                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 24357                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 23209                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 18885                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 26699                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 28810                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 19979                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 13269                                                      * 12627              
+u_dgr  UNCONN   0        0                                                    * 12628                                                      * 12629              
+u_dgr  UNCONN   0        0                                                    * 25162                                                      * 25161              
+u_dgr  UNCONN   0        0                                                    * 27359                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 27913                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 19022                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 18898                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 27941                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 18716                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 48059                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 19137                                                      * 0                  
+u_dgr  UNCONN   0        0                                                    * 25386                                                      * 12638              
+u_dgr  UNCONN   0        0                                                    * 23915                                                      * 12638              
+icmp6  UNCONN   0        0                                                    *:ipv6-icmp                                                  *:*                  
+udp    UNCONN   0        0                                              0.0.0.0:47719                                                0.0.0.0:*                  
+udp    UNCONN   0        0                                              0.0.0.0:ipp                                                  0.0.0.0:*                  
+udp    UNCONN   0        0                                              0.0.0.0:mdns                                                 0.0.0.0:*                  
+udp    UNCONN   0        0                                        127.0.0.53%lo:domain                                               0.0.0.0:*                  
+udp    UNCONN   0        0                                              0.0.0.0:bootpc                                               0.0.0.0:*                  
+udp    UNCONN   0        0                                                 [::]:mdns                                                    [::]:*                  
+udp    UNCONN   0        0                                                 [::]:44285                                                   [::]:*                  
+tcp    LISTEN   0        128                                      127.0.0.53%lo:domain                                               0.0.0.0:*                  
+tcp    LISTEN   0        5                                            127.0.0.1:ipp                                                  0.0.0.0:*                  
+tcp    LISTEN   0        5                                                [::1]:ipp                                                     [::]:*                  
+
+--- 
+
+
+---Virtual memoty usage---
+Ф. система      Розм   Вик  Дост Вик% змонтований на
+udev            2,0G     0  2,0G   0% /dev
+tmpfs           395M  1,6M  393M   1% /run
+/dev/sda1        20G  6,3G   13G  34% /
+tmpfs           2,0G     0  2,0G   0% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           2,0G     0  2,0G   0% /sys/fs/cgroup
+/dev/loop0      4,2M  4,2M     0 100% /snap/gnome-calculator/406
+/dev/loop1      3,8M  3,8M     0 100% /snap/gnome-system-monitor/100
+/dev/loop2      150M  150M     0 100% /snap/gnome-3-28-1804/67
+/dev/loop3      2,3M  2,3M     0 100% /snap/gnome-system-monitor/157
+/dev/loop4      384K  384K     0 100% /snap/gnome-characters/570
+/dev/loop6       56M   56M     0 100% /snap/core18/1988
+/dev/loop7      2,5M  2,5M     0 100% /snap/gnome-calculator/884
+/dev/loop8      100M  100M     0 100% /snap/core/10859
+/dev/loop9      219M  219M     0 100% /snap/gnome-3-34-1804/66
+/dev/loop11     640K  640K     0 100% /snap/gnome-logs/103
+/dev/loop10     1,0M  1,0M     0 100% /snap/gnome-logs/61
+/dev/loop5       89M   89M     0 100% /snap/core/7270
+/dev/loop12     163M  163M     0 100% /snap/gnome-3-28-1804/145
+/dev/loop16      15M   15M     0 100% /snap/gnome-characters/296
+/dev/loop14      55M   55M     0 100% /snap/core18/1066
+/dev/loop15      43M   43M     0 100% /snap/gtk-common-themes/1313
+/dev/loop13      65M   65M     0 100% /snap/gtk-common-themes/1514
+tmpfs           395M   28K  395M   1% /run/user/121
+tmpfs           395M   44K  395M   1% /run/user/1000
+/dev/sr1         59M   59M     0 100% /media/ubuntu18/VBox_GAs_6.1.18
+
+--- 
+
+
+---usage of disk space---
+Ф. система      Розм   Вик  Дост Вик% змонтований на
+udev            2,0G     0  2,0G   0% /dev
+tmpfs           395M  1,6M  393M   1% /run
+/dev/sda1        20G  6,3G   13G  34% /
+tmpfs           2,0G     0  2,0G   0% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           2,0G     0  2,0G   0% /sys/fs/cgroup
+/dev/loop0      4,2M  4,2M     0 100% /snap/gnome-calculator/406
+/dev/loop1      3,8M  3,8M     0 100% /snap/gnome-system-monitor/100
+/dev/loop2      150M  150M     0 100% /snap/gnome-3-28-1804/67
+/dev/loop3      2,3M  2,3M     0 100% /snap/gnome-system-monitor/157
+/dev/loop4      384K  384K     0 100% /snap/gnome-characters/570
+/dev/loop6       56M   56M     0 100% /snap/core18/1988
+/dev/loop7      2,5M  2,5M     0 100% /snap/gnome-calculator/884
+/dev/loop8      100M  100M     0 100% /snap/core/10859
+/dev/loop9      219M  219M     0 100% /snap/gnome-3-34-1804/66
+/dev/loop11     640K  640K     0 100% /snap/gnome-logs/103
+/dev/loop10     1,0M  1,0M     0 100% /snap/gnome-logs/61
+/dev/loop5       89M   89M     0 100% /snap/core/7270
+/dev/loop12     163M  163M     0 100% /snap/gnome-3-28-1804/145
+/dev/loop16      15M   15M     0 100% /snap/gnome-characters/296
+/dev/loop14      55M   55M     0 100% /snap/core18/1066
+/dev/loop15      43M   43M     0 100% /snap/gtk-common-themes/1313
+/dev/loop13      65M   65M     0 100% /snap/gtk-common-themes/1514
+tmpfs           395M   28K  395M   1% /run/user/121
+tmpfs           395M   44K  395M   1% /run/user/1000
+/dev/sr1         59M   59M     0 100% /media/ubuntu18/VBox_GAs_6.1.18
+
+--- 
+
+
